@@ -1,0 +1,16 @@
+{% extends 'quora_clone/base.html' %}
+
+{% block content %}
+    <h2>All Questions</h2>
+    <ul>
+        {% for question in questions %}
+            <li>
+                <a href="{% url 'question_detail' question.pk %}">
+                    {{ question.title }}
+                </a> — <em>by {{ question.user.username }}</em>
+            </li>
+        {% empty %}
+            <li>No questions found.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
