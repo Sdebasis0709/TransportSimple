@@ -16,11 +16,7 @@ A full-stack Django-based clone of Quora where users can register, post question
 
 ---
 
-## 📸 Screenshots
 
-*(Add your screenshots here, like login page, question list, etc.)*
-
----
 
 ## 🛠 Tech Stack
 
@@ -37,7 +33,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/quora-clone-django.git
+git clone https://github.com/Sdebasis0709/TransportSimple.git
 cd quora-clone-django
 
 # 2. Create virtual environment
